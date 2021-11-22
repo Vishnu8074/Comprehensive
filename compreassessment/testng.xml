@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="com.mindtree.utilities.Listener"/>
+<listener class-name="com.mindtree.utilities.ExtentReporterNG"/>
+
+</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.mindtree.testObject.AllOfItTest"/>
+      <class name="com.mindtree.testObject.GiftIdeasTest"/>
+      <class name="com.mindtree.testObject.CorporateTest"/>
+      <class name="com.mindtree.testObject.ContactUsTest"/>
+      <class name="com.mindtree.testObject.GiftsTest"/>
+      <class name="com.mindtree.testObject.SignInTest"/>
+      <class name="com.mindtree.testObject.SearchTest"/>
+      <class name="com.mindtree.testObject.QuantityTest"/>
+      <class name="com.mindtree.testObject.WhatsNewTest"/>
+      <class name="com.mindtree.testObject.CreateAccountTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
